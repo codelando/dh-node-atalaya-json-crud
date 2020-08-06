@@ -5,7 +5,7 @@ module.exports = {
     index: (req, res) => {
         // Me traigo todos los grupos
 
-        res.render('groups/index', ??? );
+        res.render('groups/index',  {});
     },
     create: (req, res) => {
         res.render('groups/create');
@@ -35,7 +35,7 @@ module.exports = {
 
         // Busco el grupo
 
-        res.render('groups/detail', ???);
+        res.render('groups/detail', {});
     },
     destroy: (req, res) => {
 
@@ -54,6 +54,6 @@ module.exports = {
 
         // Envío los grupos y lo que busco el usuario a la vista
 
-        res.render('groups/search', { ??? });
+        res.render('groups/search', {});
     },
 }
